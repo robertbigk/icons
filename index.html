@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Moje Ikony SVG</title>
   <style>
     body {
@@ -48,9 +48,9 @@
   <div class="grid" id="icons"></div>
 
   <script>
-    const repoUrl = "https://raw.githubusercontent.com/robertbigk/icons/main/";
+    const repoUrl = "https://raw.githubusercontent.com/robertbigk/icons/main/svg/";
 
-    fetch("https://api.github.com/repos/robertbigk/icons/contents")
+    fetch("https://api.github.com/repos/robertbigk/icons/contents/svg")
       .then(res => res.json())
       .then(files => {
         const container = document.getElementById("icons");
@@ -69,6 +69,10 @@
             };
             container.appendChild(div);
           });
+      })
+      .catch(() => {
+        const container = document.getElementById("icons");
+        container.innerHTML = "<p>Błąd podczas ładowania ikon. Sprawdź, czy katalog svg istnieje i jest publiczny.</p>";
       });
   </script>
 </body>
