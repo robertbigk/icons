@@ -1,0 +1,37 @@
+<svg width="128" height="72" viewBox="0 0 128 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Obudowa (trapez) -->
+  <polygon points="8,56 16,16 120,16 120,56" fill="#f3f4f6" stroke="#bbb" stroke-width="1.2"></polygon>
+  <!-- Górna krawędź -->
+  <rect x="16" y="14" width="104" height="4" rx="2" fill="#e0e1e3"></rect>
+  <!-- Boczna kratka -->
+  <rect x="113" y="23" width="6" height="26" rx="2" fill="#d1d5db"></rect>
+  <rect x="114" y="26" width="4" height="2" fill="#bbb"></rect>
+  <rect x="114" y="30" width="4" height="2" fill="#bbb"></rect>
+  <rect x="114" y="34" width="4" height="2" fill="#bbb"></rect>
+  <rect x="114" y="38" width="4" height="2" fill="#bbb"></rect>
+  <rect x="114" y="42" width="4" height="2" fill="#bbb"></rect>
+  <rect x="114" y="46" width="4" height="2" fill="#bbb"></rect>
+  <!-- Podstawa (cień) -->
+  <ellipse cx="64" cy="62" rx="52" ry="6" fill="#000" opacity="0.12"></ellipse>
+  <!-- Nóżki -->
+  <ellipse cx="16" cy="58" rx="4" ry="2" fill="#222"></ellipse>
+  <ellipse cx="120" cy="58" rx="4" ry="2" fill="#222"></ellipse>
+  <!-- Pasek LEDów (na dole) -->
+  <rect x="20" y="52" width="80" height="5" rx="2.5" fill="#181818"></rect>
+  <!-- LEDy -->
+  <circle cx="26" cy="55" r="1.2" fill="#b3b3b3"></circle>
+  <circle cx="32" cy="55" r="1.2" fill="#ffda47"></circle>
+  <circle cx="38" cy="55" r="1.2" fill="#ffda47"></circle>
+  <circle cx="44" cy="55" r="1.2" fill="#56eb34"></circle>
+  <circle cx="50" cy="55" r="1.2" fill="#56eb34"></circle>
+  <circle cx="56" cy="55" r="1.2" fill="#56eb34"></circle>
+  <circle cx="62" cy="55" r="1.2" fill="#56eb34"></circle>
+  <circle cx="68" cy="55" r="1.2" fill="#b3b3b3"></circle>
+  <circle cx="74" cy="55" r="1.2" fill="#b3b3b3"></circle>
+  <circle cx="80" cy="55" r="1.2" fill="#56eb34"></circle>
+  <circle cx="86" cy="55" r="1.2" fill="#ffda47"></circle>
+  <circle cx="92" cy="55" r="1.2" fill="#56eb34"></circle>
+  <circle cx="98" cy="55" r="1.2" fill="#56eb34"></circle>
+  <!-- Logo QNAP -->
+  <rect x="106" y="51" width="16" height="8" rx="2" fill="#ccc"></rect>
+  </svg>
